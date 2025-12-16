@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr = {3,1,5,4,2};
-        select(arr);
+        int[] arr = {5,4,3,2,1};
+        selectSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    static void select(int[] arr) {
+    static int[] selectSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             //find the max item in array and swap with correct index
             //arr.length = 5 | arr.length - 1 = 4 | - i = i.e = 0, when loop increases
@@ -17,6 +17,7 @@ public class SelectionSort {
             int maxindex = getMaxIndex(arr, 0, last);
             swap(arr, maxindex, last);
         }
+        return arr;
     }
 
     static int getMaxIndex(int[] arr, int start, int last){
