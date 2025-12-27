@@ -6,6 +6,15 @@ p5 - Maximum Population Year - Attempted 1
 p6 - Kth Missing Positive Number - Attempted 1
 p6 - Intersection of Two Arrays - HASH TABLE
 p6 - Intersection of Two Arrays II - HASH TABLE
+p7 - Rank Transform of an Array - HASH TABLE
+p8 - Longest Common Prefix - No Idea
+p8 - Valid Parentheses - No Idea
+p8 - Maximum Repeating Substring - Attempted 1
+p11 - Add Binary - Attempted 1
+p12 - Happy Number - HASH MAPS
+p12 - Climbing Stairs - DP
+p12 - Excel Sheet Column Title - Understood
+p12 - Roman to Integer - HASH TABLE
 
 practice 05
 Determine Whether Matrix Can Be Obtained By Rotation
@@ -23,23 +32,15 @@ Assign Cookies - UNSOLVED
 Array Partition I - LEETCODE 404
 Matrix Cells in Distance Order - MATRIX
 Relative Sort Array
-Minimum Absolute Difference
-Rank Transform of an Array
 Sort Integers by The Number of 1 Bits
 Make Two Arrays Equal by Reversing Sub-arrays
 Can Make Arithmetic Progression From Sequence
 Sort Array by Increasing Frequency - HASH TABLE
 
 practice 08
-Excel Sheet Column Title
-Longest Common Prefix
-Maximum Repeating Substring
 Check if Binary String Has at Most One Segment of Ones
-Roman to Integer - HASH TABLE
-Valid Parentheses
 
 practice11
-Add Binary
 Single Number
 Reverse Bits
 Number of 1 Bits
@@ -59,13 +60,4 @@ Decode XORed Array
 Sum of All Subset XOR Totals
 Longest Nice Substring
 
-practice 12
-Roman to Integer.
-Happy Number.
-Power of Four
-Excel Sheet Column Title
-Maximum Product of Three Numbers
-Climbing Stairs
-Add Binary
-Power of Two
 
