@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 public class SubSeq {
     public static void main(String[] args) {
-        subSeq("", "abc");
-        System.out.println(subSeq2("","abc",new ArrayList<>()));
-        System.out.println(subSeq3("", "abc"));
+//        subSeq("", "abc");
+//        System.out.println(subSeq2("","abc",new ArrayList<>()));
+//        System.out.println(subSeq3("", "abc"));
+        subSeqAscii("", "abc");
     }
 
     static ArrayList<String> subSeq3(String p, String up){
@@ -46,5 +47,17 @@ public class SubSeq {
         char ch = up.charAt(0);
         subSeq(p + ch, up.substring(1));  // add it - add the first char of up
         subSeq(p, up.substring(1));          // ignored it
+    }
+
+    static void subSeqAscii(String p, String up){
+        if (up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+
+        char ch = up.charAt(0);
+        subSeqAscii(p + ch, up.substring(1));  // add it - add the first char of up
+        subSeqAscii(p, up.substring(1));          // ignored it
+        subSeqAscii(p + (ch + 0), up.substring(1));
     }
 }

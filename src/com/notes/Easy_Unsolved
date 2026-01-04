@@ -6,6 +6,7 @@ p5 - Maximum Population Year - Attempted 1
 p6 - Kth Missing Positive Number - Attempted 1
 p6 - Intersection of Two Arrays - HASH TABLE
 p6 - Intersection of Two Arrays II - HASH TABLE
+p6 - Fair Candy Swap - HASH TABLE
 p7 - Rank Transform of an Array - HASH TABLE
 p8 - Longest Common Prefix - No Idea
 p8 - Valid Parentheses - No Idea
@@ -18,12 +19,9 @@ p12 - Roman to Integer - HASH TABLE
 
 practice 05
 Determine Whether Matrix Can Be Obtained By Rotation
-Maximum Subarray
+Maximum Subarray - DP
 Reshape the Matrix
 Minimum Cost to Move Chips to The Same Position
-
-practice 06
-Fair Candy Swap
 
 practice 07
 Intersection of Two Arrays - HASHMAPS
