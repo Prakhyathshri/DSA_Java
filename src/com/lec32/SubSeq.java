@@ -7,7 +7,9 @@ public class SubSeq {
 //        subSeq("", "abc");
 //        System.out.println(subSeq2("","abc",new ArrayList<>()));
 //        System.out.println(subSeq3("", "abc"));
-        subSeqAscii("", "abc");
+//        subSeqAscii("", "abc");
+
+        System.out.println(subSeqAsciiRet("", "abc"));
     }
 
     static ArrayList<String> subSeq3(String p, String up){
@@ -59,5 +61,22 @@ public class SubSeq {
         subSeqAscii(p + ch, up.substring(1));  // add it - add the first char of up
         subSeqAscii(p, up.substring(1));          // ignored it
         subSeqAscii(p + (ch + 0), up.substring(1));
+    }
+
+    static ArrayList<String> subSeqAsciiRet(String p, String up){
+        if (up.isEmpty()){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(p);
+            return list;
+        }
+
+        char ch = up.charAt(0);
+        ArrayList<String> first = subSeqAsciiRet(p + ch, up.substring(1));  // add it - add the first char of up
+        ArrayList<String> second = subSeqAsciiRet(p, up.substring(1));          // ignored it
+        ArrayList<String> third = subSeqAsciiRet(p + (ch + 0), up.substring(1));
+
+        first.addAll(second);
+        first.addAll(third);
+        return first;
     }
 }
