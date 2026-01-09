@@ -1,4 +1,4 @@
-package com.practice07;
+package com.syntax;
 
 import java.util.Arrays;
 
