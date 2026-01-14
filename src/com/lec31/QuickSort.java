@@ -6,7 +6,11 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
+
+        // Original will get sorted after running quick sort
         sort(arr, 0, arr.length - 1);
+
+        // Now original array is sorted, and I am priniting it
         System.out.println(Arrays.toString(arr));
 
         Arrays.sort(arr);
