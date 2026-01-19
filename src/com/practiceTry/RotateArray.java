@@ -1,6 +1,4 @@
-package com.practice15;
-
-import java.util.Arrays;
+package com.practiceTry;
 
 public class RotateArray {
     public static void main(String[] args) {
