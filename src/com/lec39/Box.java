@@ -4,6 +4,10 @@ public class Box { // Box is a class
     double l;      // These are PROPERTIES OF BOXES
     double h;      // Also called as instance variable
     double w;
+    private double x; // This is a private variable
+    // you cant access this in child class
+
+    double weight;
 
     // Something with same name as Class inside class
     // is called as Constructor
@@ -15,6 +19,10 @@ public class Box { // Box is a class
 
     //Cube
     Box (double side){
+
+        // super();
+        // Every class has an Object() as a class
+
         this.w = side;
         this.l = side;
         this.h = side;
